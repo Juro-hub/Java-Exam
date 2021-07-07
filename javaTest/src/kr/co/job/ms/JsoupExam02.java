@@ -13,7 +13,6 @@ public class JsoupExam02 {
 	
 		String url = "http://www.cgv.co.kr/movies/";
 		Document doc = null;
-		
 		try {
 			doc = Jsoup.connect(url).get();
 		}
