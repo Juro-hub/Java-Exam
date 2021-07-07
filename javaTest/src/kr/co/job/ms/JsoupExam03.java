@@ -23,7 +23,6 @@ public class JsoupExam03 {
 		catch(IOException e){
 			e.printStackTrace();
 		}
-		
 		Elements element = doc.select("div.Content");
 		System.out.println(element);
 		System.out.println("===========================");
